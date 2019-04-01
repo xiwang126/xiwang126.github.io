@@ -286,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/31/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/01/Ubuntu下bash支持中文/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -306,7 +306,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/03/31/hello-world/" class="post-title-link" itemprop="url">Hello UgCode</a>
+                <a href="/2019/04/01/Ubuntu下bash支持中文/" class="post-title-link" itemprop="url">Ubuntu下bash支持中文</a>
               
             
           </h1>
@@ -331,7 +331,7 @@
                 
               
 
-              <time title="Created: 2019-03-31 03:49:27 / Modified: 20:51:42" itemprop="dateCreated datePublished" datetime="2019-03-31T03:49:27+08:00">2019-03-31</time>
+              <time title="Created: 2019-04-01 16:43:06 / Modified: 16:47:54" itemprop="dateCreated datePublished" datetime="2019-04-01T16:43:06+08:00">2019-04-01</time>
             
 
             
@@ -372,17 +372,11 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h3 id="image"><a href="#image" class="headerlink" title="image"></a>image</h3><p><img src="http://qiniu-blog.ugcode.org/media/%E6%B5%B7%E7%8E%8B.jpg" alt="海王-w3375"></p>
-<p><img src="http://qiniu-blog.ugcode.org/media/%E7%BB%BF%E7%9A%AE%E4%B9%A6.jpg" alt="绿皮书-w1579"></p>
+            <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>环境阿里云 Ubuntu 16.04，需要日志筛选时发现不支持输入中文。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">~# locale</span><br><span class="line">LANG=en_US.UTF-8</span><br><span class="line">LANGUAGE=</span><br><span class="line">LC_CTYPE=zh_CN.UTF-8</span><br><span class="line">LC_NUMERIC=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_TIME=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_COLLATE=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_MONETARY=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_MESSAGES=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_PAPER=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_NAME=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_ADDRESS=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_TELEPHONE=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_MEASUREMENT=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_IDENTIFICATION=&quot;en_US.UTF-8&quot;</span><br><span class="line">LC_ALL=</span><br></pre></td></tr></table></figure></p>
+<h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>发现<code>LC_CTYPE</code>是没有问题的，原因是系统没有安装<code>zh_CN.UTF-8</code>相关的语言模块。</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>安装相应语模块</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">~# sudo locale-gen &quot;zh_CN.UTF-8&quot;</span><br><span class="line">sudo: unable to resolve host online3</span><br><span class="line">Generating locales (this might take a while)...</span><br><span class="line">  zh_CN.UTF-8... done</span><br><span class="line">Generation complete.</span><br></pre></td></tr></table></figure>
+<p>重新登录就OK～</p>
 
           
         
@@ -474,6 +468,25 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">tags</span>
+                  
+                </div>
               
             </nav>
           
